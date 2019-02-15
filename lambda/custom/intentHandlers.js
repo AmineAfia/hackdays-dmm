@@ -6,7 +6,7 @@ const logHelper = require('./logHelper');
 const s3Helper = require('./s3Helper');
 
 let items = [];
-
+console.log("THIS.EVENT = " + JSON.stringify(this.event));
 let intentHandlers = {
     'selectCategory' : function () {
         /*
