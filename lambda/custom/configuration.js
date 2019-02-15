@@ -11,11 +11,11 @@ let config = {
   // TODO Add the category name (to feed name) and the corresponding URL
   feeds: {
     CATEGORY_NAME_1:
-      "https://www2.morgenweb.de/austausch/vk_abfrage.php?out=json&typ=0&ab=2019-02-14&bis=2019-02-14",
+      "https://www2.morgenweb.de/austausch/vk_abfrage.php?xml=json&typ=0&ab=2019-02-14&bis=2019-02-14",
     CATEGORY_NAME_2:
-      "https://www2.morgenweb.de/austausch/vk_abfrage.php?out=json&typ=0&ab=2019-02-14&bis=2019-02-14&rid%5b%5d=31&rid%5b%5d=17&rid%5b%5d=59&rid%5b%5d=28&rid%5b%5d=34&oid%5b%5d=143&oid%5b%5d=225&oid%5b%5d=232&oid%5b%5d=436&oid%5b%5d=457",
+      "https://www2.morgenweb.de/austausch/vk_abfrage.php?out=xml&typ=0&ab=2019-02-14&bis=2019-02-14&rid%5b%5d=31&rid%5b%5d=17&rid%5b%5d=59&rid%5b%5d=28&rid%5b%5d=34&oid%5b%5d=143&oid%5b%5d=225&oid%5b%5d=232&oid%5b%5d=436&oid%5b%5d=457",
     CATEGORY_NAME_3:
-      "https://www2.morgenweb.de/austausch/vk_abfrage2.php?out=json&typ=3&ort=Mannheim&rubrik=Kino"
+      "https://www2.morgenweb.de/austausch/vk_abfrage2.php?out=xml&typ=3&ort=Mannheim&rubrik=Kino"
   },
 
   speech_style_for_numbering_feeds: "Item",
