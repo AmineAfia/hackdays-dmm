@@ -1,0 +1,31 @@
+{
+  "skillManifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Have Alexa read feeds to you from an RSS/Atom feed",
+          "examplePhrases": [
+            "Alexa open mhack",
+            "Alexa tell mhack to play favorites",
+            "Alexa ask mhack to get categories"
+          ],
+          "name": "mhack",
+          "description": "Have Alexa read feeds to you from an RSS/Atom feed. Create a list of favorites and manage your feeds by category."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "ask-custom-feed"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
